@@ -3,7 +3,7 @@ package patos;
 import quacks.QuackBehavior;
 import voos.FlyBehavior;
 
-public class Duck {
+public abstract class Duck {
     private FlyBehavior flyBehavior;
     private QuackBehavior quackBehavior;
 
@@ -12,7 +12,7 @@ public class Duck {
         this.quackBehavior = quackBehavior;
     }
 
-    static void exibir(){
-
+    public void exibir(){
+        System.out.println("Sou um Pato");
     }
 }
