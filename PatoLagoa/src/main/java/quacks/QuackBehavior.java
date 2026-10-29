@@ -1,4 +1,5 @@
 package quacks;
 
-public class QuackBehavior {
+public interface QuackBehavior {
+    void quack();
 }
