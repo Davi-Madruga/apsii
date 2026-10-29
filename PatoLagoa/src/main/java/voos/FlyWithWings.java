@@ -1,4 +1,8 @@
 package voos;
 
-public class FlyWithWings {
+public class FlyWithWings implements FlyBehavior{
+    @Override
+    public void fly(){
+        System.out.println("Voando!");
+    }
 }

@@ -1,4 +1,5 @@
 package voos;
 
-public class FlyBehavior {
+public interface FlyBehavior {
+    void fly();
 }
