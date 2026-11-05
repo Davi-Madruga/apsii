@@ -1,7 +1,7 @@
 package ingredientes;
 
 public class Calabresa implements Ingrediente{
-    public String tipo;
+    private String tipo;
 
     public Calabresa(String tipo) {
         this.tipo = tipo;
